@@ -1,0 +1,9 @@
+<ion-split-panel when="sm">
+
+  <ion-menu [content]="content">
+    <ion-nav [root]="sideRoot"></ion-nav>
+  </ion-menu>
+
+  <ion-nav [root]="root" main #content></ion-nav>
+
+</ion-split-panel>

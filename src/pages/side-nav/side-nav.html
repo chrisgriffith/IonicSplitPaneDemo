@@ -1,0 +1,16 @@
+<ion-header>
+
+<ion-navbar>
+<ion-title>Components</ion-title>
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-list>
+<button menuClose ion-item *ngFor="let p of pages" (click)="displaySubNav(p)">
+{{p.title}}
+</button>
+</ion-list>
+</ion-content>
