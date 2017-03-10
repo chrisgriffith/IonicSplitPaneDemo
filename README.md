@@ -14,5 +14,5 @@ $ npm install -g ionic
 ```bash
 $ ionic start splitPaneDemo https://github.com/chrisgriffith/IonicSplitPaneDemo --v2
 $ cd splitPaneDemo
-
+$ ionic serve
 ```
