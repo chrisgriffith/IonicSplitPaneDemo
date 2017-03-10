@@ -1,7 +1,11 @@
 # Ionic Split Pane Demo
 
 
-This is a sample code for my Ionic Split Pane demo.
+This is a sample code for my Ionic Split Pane demo. Note: This template requires Ionic 2.2 or later to be installed.
+
+```bash
+$ npm install -g ionic
+```
 
 ## How to use this template
 
@@ -10,5 +14,5 @@ This is a sample code for my Ionic Split Pane demo.
 ```bash
 $ ionic start splitPaneDemo https://github.com/chrisgriffith/IonicSplitPaneDemo --v2
 $ cd splitPaneDemo
-$ npm install --save ionic-angular@2.1.0-201702281739
+
 ```
